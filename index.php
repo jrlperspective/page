@@ -1,0 +1,762 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>JRL Perspective | Photography & Videography</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+
+</head>
+<body>
+<div id="loader">
+
+    <h2 class="text-logo-part1">JRL<span class="text-logo-part2">PRSPCTV</span></h2>
+
+</div>
+<!--================ NAVIGATION ================-->
+
+<header>
+
+    <div class="logo">
+       <img src="images/JRLPRSPCTV.png" class="header-logo">
+    </div>
+
+    <nav>
+
+        <ul>
+
+            <li><a href="#home">Home</a></li>
+
+            <li><a href="#about">About</a></li>
+
+            <li><a href="#services">Services</a></li>
+
+            <li><a href="#portfolio">Portfolio</a></li>
+
+            <li><a href="#films">Films</a></li>
+
+            <li><a href="#contact">Contact</a></li>
+
+        </ul>
+
+    </nav>
+
+    <div class="menu-btn">
+        <i class="fa-solid fa-bars"></i>
+    </div>
+
+</header>
+
+<!--================ HERO =================-->
+
+<section class="hero" id="home">
+
+    <video class="hero-video" autoplay muted loop playsinline>
+        <source src="assets/videos/webherovideo.mp4" type="video/mp4">
+    </video>
+
+    <div class="hero-overlay"></div>
+
+    <div class="hero-gradient"></div>
+
+    <div class="hero-content fade-up">
+
+        <p class="subtitle">
+            PHOTOGRAPHY • VIDEOGRAPHY • PHOTOBOOTH
+        </p>
+
+        <h1>
+            Capturing Moments.<br>
+            <span class="gold">Preserving</span> Stories.
+        </h1>
+
+        <p class="description">
+
+            We don't just capture photos.
+            We preserve emotions, stories,
+            and memories that last forever.
+
+        </p>
+
+        <div class="hero-buttons">
+
+            <a href="#portfolio" class="btn">
+
+                View Portfolio
+
+            </a>
+
+            <a href="#contact" class="btn-outline">
+
+                Book Your Event
+
+            </a>
+
+        </div>
+
+    </div>
+
+    <div class="scroll-indicator">
+
+        <span></span>
+
+    </div>
+
+</section>
+
+<!-- ================= ABOUT ================= -->
+
+<section class="about fade-up" id="about">
+
+    <div class="about-container">
+
+        <div class="about-image">
+
+            <img src="assets/images/JRL00288.jpg" alt="JRL Perspective">
+
+        </div>
+
+        <div class="about-content">
+
+            <span class="section-subtitle">
+                ABOUT JRL PERSPECTIVE
+            </span>
+
+            <h2>
+                Turning Moments Into
+                Timeless Memories.
+            </h2>
+
+            <p>
+
+                At JRL Perspective, every event is more than just a celebration—it's
+                a story waiting to be told. We capture genuine emotions, meaningful
+                moments, and unforgettable experiences through timeless photography
+                and cinematic videography.
+
+            </p>
+
+            <p>
+
+                Whether it's a wedding, birthday, debut, christening, corporate event,
+                or portrait session, our goal is to preserve every memory with creativity,
+                passion, and attention to detail.
+
+            </p>
+
+            <div class="about-stats">
+
+                <div class="stat">
+
+                    <h3 class="counter" data-target="200">0</h3>
+
+                    <p>Events Covered</p>
+
+                </div>
+
+                <div class="stat">
+
+                    <h3 class="counter" data-target="500">0</h3>
+
+                    <p>Happy Clients</p>
+
+                </div>
+
+                <div class="stat">
+
+                    <h3 class="counter" data-target="5">0</h3>
+
+                    <p>Years Experience</p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!--================ SERVICES ================-->
+
+<section class="services fade-up" id="services">
+
+    <div class="section-title">
+
+        <span>WHAT WE OFFER</span>
+
+        <h2>Services Crafted Around Your Story</h2>
+
+        <p>
+            Every celebration deserves to be remembered beautifully.
+            We provide professional photography, cinematic videography,
+            and event services tailored to capture every meaningful moment.
+        </p>
+
+    </div>
+
+    <div class="services-grid">
+
+        <div class="service-card">
+
+            <i class="fa-solid fa-camera-retro"></i>
+
+            <h3>Photography</h3>
+
+            <p>
+                Weddings, birthdays, debuts, portraits,
+                corporate events and more.
+            </p>
+
+        </div>
+
+        <div class="service-card">
+
+            <i class="fa-solid fa-video"></i>
+
+            <h3>Videography</h3>
+
+            <p>
+                Cinematic storytelling with professional
+                editing and color grading.
+            </p>
+
+        </div>
+
+        <div class="service-card">
+
+            <i class="fa-solid fa-images"></i>
+
+            <h3>Photobooth</h3>
+
+            <p>
+                Unlimited prints, customized layouts,
+                fun props and instant memories.
+            </p>
+
+        </div>
+
+        <div class="service-card">
+
+            <i class="fa-solid fa-ring"></i>
+
+            <h3>Wedding Coverage</h3>
+
+            <p>
+                Documenting every emotion,
+                every smile and every promise.
+            </p>
+
+        </div>
+
+        <div class="service-card">
+
+            <i class="fa-solid fa-cake-candles"></i>
+
+            <h3>Birthdays & Debuts</h3>
+
+            <p>
+                Celebrate milestones with timeless
+                photographs and cinematic highlights.
+            </p>
+
+        </div>
+
+        <div class="service-card">
+
+            <i class="fa-solid fa-child-reaching"></i>
+
+            <h3>Christening</h3>
+
+            <p>
+                Preserve your family's meaningful moments
+                with heartfelt storytelling.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!--================ PORTFOLIO ================-->
+
+<?php include 'portfolio.php'; ?>
+
+<!--================ FEATURED STORIES ================-->
+
+<section class="stories fade-up" id="stories">
+
+    <div class="section-title">
+
+        <span>FEATURED STORIES</span>
+
+        <h2>Every Event Has a Story</h2>
+
+        <p>
+            More than photographs—these are stories filled with genuine emotions,
+            unforgettable celebrations, and timeless memories.
+        </p>
+
+    </div>
+
+    <div class="stories-container">
+
+        <!-- Story 1 -->
+
+        <div class="story-card">
+
+            <div class="story-image">
+
+                <img src="assets/images/ASHXVIIIThumb.png" alt="Ashley Prelude to 18">
+
+            </div>
+
+            <div class="story-content">
+
+                <span class="story-category">PRE-DEBUT SESSION</span>
+
+                <h3>Ashley — A Prelude to 18</h3>
+
+                <p>
+                    A cinematic pre-debut session celebrating the beautiful beginning
+                    of Ashley's journey toward adulthood.
+                </p>
+
+                <div class="story-buttons">
+
+                    <a href="#"
+
+                    class="open-project"
+
+                    data-title="Ashley Nicole"
+
+                    data-category="PRE-DEBUT"
+
+                    data-image="assets/images/ASHXVIIIThumb.png"
+
+                    data-description="A cinematic pre-debut session celebrating Ashley's journey into adulthood."
+                    
+                    data-album="https://www.facebook.com/JRLPerspective/posts/pfbid02NsdWLbZkmSRt2wNozaQAmMVVa8w5tdVGnK314knDZsedMvLnremu4S15saDR3XW5l?rdid=jW9mAqtjqxhFz3b3#">
+
+                    View Story
+
+                    </a>
+
+                    <a href="https://www.facebook.com/reel/1734546594445625">Watch Film</a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Story 2 -->
+
+        <div class="story-card reverse">
+
+            <div class="story-image">
+
+                <img src="assets/images/calix.jpg" alt="Christening">
+
+            </div>
+
+            <div class="story-content">
+
+                <span class="story-category">PRE-BIRTHDAY SESSION</span>
+
+                <h3>Calix Jadia</h3>
+
+                <p>
+                    Every celebration begins with a story. Our pre-birthday sessions capture your personality, excitement, and style through timeless portraits that reflect this special milestone before the big day arrives.
+
+                </p>
+
+                <div class="story-buttons">
+
+                    <a href="#"
+
+                    class="open-project"
+
+                    data-title="Calix Jadia Pre-Birthday Session"
+
+                    data-category="PRE-BIRTHDAY SESSION"
+
+                    data-image="assets/images/calix.jpg"
+
+                    data-description="Every celebration begins with a story. Our pre-birthday sessions capture your personality, excitement, and style through timeless portraits that reflect this special milestone before the big day arrives."
+                    
+                    data-album="https://www.facebook.com/share/p/1Ea99M5E6c/">
+
+                    View Story
+
+                    </a>
+
+                    <!-- <a href="#">Watch Film</a> -->
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Story 3 -->
+
+        <div class="story-card">
+
+            <div class="story-image">
+
+                <img src="assets/images/razelleshane.jpg" alt="Wedding">
+
+            </div>
+
+            <div class="story-content">
+
+                <span class="story-category">WEDDING</span>
+
+                <h3>Razelle & Shane</h3>
+
+                <p>
+                    Capturing love, laughter, and every unforgettable moment—beautifully preserved for a lifetime.
+
+                </p>
+
+                <div class="story-buttons">
+
+                    <a href="#"
+
+                    class="open-project"
+
+                    data-title="Razelle and Shane"
+
+                    data-category="WEDDING"
+
+                    data-image="assets/images/razelleshane.jpg"
+
+                    data-description="Capturing love, laughter, and every unforgettable moment—beautifully preserved for a lifetime."
+                    
+                    data-album="https://www.facebook.com/JRLPerspective/posts/pfbid0mdyuMJrG2YbFvmfhddSXr2gLUYsskZgTGNNY4wi1HKjaUwU6UEPwPBMuUgp9SLTJl?rdid=UzrJ6UHOtXKxz1SG#">
+
+                    View Story
+
+                    </a>
+
+                    <a href="https://www.facebook.com/reel/26232882003061356">Watch Film</a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Story 4 -->
+
+        <div class="story-card reverse">
+
+            <div class="story-image">
+
+                <img src="assets/images/TylerRey.jpg" alt="Christening">
+
+            </div>
+
+            <div class="story-content">
+
+                <span class="story-category">CHRISTENING</span>
+
+                <h3>Tyler Rey</h3>
+
+                <p>
+                    Capturing precious moments shared with family and loved ones
+                    on a meaningful day of faith.
+                </p>
+
+                <div class="story-buttons">
+
+                    <a href="#"
+
+                    class="open-project"
+
+                    data-title="Tyler Rey Christening and 1st Birthday"
+
+                    data-category="CHRISTENING"
+
+                    data-image="assets/images/TylerRey.jpg"
+
+                    data-description="Capturing precious moments shared with family and loved ones on a meaningful day of faith."
+                    
+                    data-album="https://www.facebook.com/share/p/1Bn5Hc1mPh/">
+
+                    View Story
+
+                    </a>
+
+                    <!-- <a href="#">Watch Film</a> -->
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!--================ CALL TO ACTION ================-->
+
+<section class="cta">
+
+    <div class="cta-overlay"></div>
+
+    <div class="cta-content fade-up">
+
+        <span>LET'S CREATE SOMETHING BEAUTIFUL</span>
+
+        <h2>
+            Every Moment Deserves<br>
+            To Be Remembered.
+        </h2>
+
+        <p>
+
+            Whether it's a wedding, birthday, debut,
+            christening or corporate event,
+            let's create timeless memories together.
+
+        </p>
+
+        <div class="cta-buttons">
+
+            <a href="#contact" class="btn">
+                Book Your Event
+            </a>
+
+            <a href="#portfolio" class="btn-outline">
+                View Portfolio
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!--================ CONTACT ================-->
+
+<section class="contact fade-up" id="contact">
+
+    <div class="section-title">
+
+        <span>GET IN TOUCH</span>
+
+        <h2>Let's Tell Your Story</h2>
+
+        <p>
+            We'd love to hear about your upcoming event.
+            Send us a message and let's create something unforgettable.
+        </p>
+
+    </div>
+
+    <div class="contact-container">
+
+        <div class="contact-info">
+
+            <div class="info-box">
+                <i class="fa-brands fa-facebook-f"></i>
+                <div>
+                    <h3>Facebook</h3>
+                    <p>JRL Perspective</p>
+                </div>
+            </div>
+
+            <div class="info-box">
+                <i class="fa-brands fa-instagram"></i>
+                <div>
+                    <h3>Instagram</h3>
+                    <p>@jrlperspective</p>
+                </div>
+            </div>
+
+            <div class="info-box">
+                <i class="fa-solid fa-envelope"></i>
+                <div>
+                    <h3>Email</h3>
+                    <p>your@email.com</p>
+                </div>
+            </div>
+
+            <div class="info-box">
+                <i class="fa-solid fa-phone"></i>
+                <div>
+                    <h3>Phone</h3>
+                    <p>+63 XXX XXX XXXX</p>
+                </div>
+            </div>
+
+            <div class="info-box">
+                <i class="fa-solid fa-location-dot"></i>
+                <div>
+                    <h3>Location</h3>
+                    <p>Nueva Ecija, Philippines</p>
+                </div>
+            </div>
+
+        </div>
+
+        <form class="contact-form">
+
+            <input type="text" placeholder="Your Name">
+
+            <input type="email" placeholder="Email Address">
+
+            <input type="text" placeholder="Event Type">
+
+            <textarea placeholder="Tell us about your event..."></textarea>
+
+            <button type="submit" class="btn">
+                Send Inquiry
+            </button>
+
+        </form>
+
+    </div>
+
+</section>
+
+<!--================ FOOTER ================-->
+
+<footer class="footer">
+
+    <div class="footer-top">
+
+        <h2 class="text-logo-part1">JRL<span class="text-logo-part2">PRSPCTV</span></h2>
+
+        <p>
+
+            Capturing Moments. Preserving Stories.
+
+        </p>
+
+        <div class="footer-social">
+
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+
+            <a href="#"><i class="fab fa-instagram"></i></a>
+
+            <a href="#"><i class="fab fa-youtube"></i></a>
+
+            <a href="#"><i class="fab fa-tiktok"></i></a>
+
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+
+        <p>
+
+            © 2026 JRL Perspective.
+            All Rights Reserved.
+
+        </p>
+
+    </div>
+
+</footer>
+
+<!--================ PROJECT VIEWER ================-->
+
+<div class="project-viewer">
+
+    <div class="viewer-overlay"></div>
+
+    <div class="viewer-content">
+
+        <button class="close-viewer">
+
+            <i class="fa-solid fa-xmark"></i>
+
+        </button>
+
+        <div class="viewer-left">
+
+            <img id="viewerImage"
+                 src="images/stories/story1.jpg">
+
+        </div>
+
+        <div class="viewer-right">
+
+            <span id="viewerCategory">
+                PRE-DEBUT
+            </span>
+
+            <h2 id="viewerTitle">
+                Ashley Nicole
+            </h2>
+
+            <p id="viewerDescription">
+
+                Every story deserves to be remembered.
+
+            </p>
+
+            <div class="viewer-meta">
+
+                <div>
+
+                    <i class="fa-regular fa-calendar"></i>
+
+                    July 2026
+
+                </div>
+
+                <div>
+
+                    <i class="fa-solid fa-location-dot"></i>
+
+                    Nueva Ecija
+
+                </div>
+
+            </div>
+
+            <a id="albumview" href="#" class="btn">
+
+                View Album
+
+            </a>
+
+        </div>
+
+    </div>
+
+</div>
+
+<a class="messenger"
+   href="https://m.me/JRLPerspective"
+   target="_blank">
+
+<i class="fab fa-facebook-messenger"></i>
+
+</a>
+<div id="cursor-glow"></div>
+<script src="script.js"></script>
+
+</body>
+</html>
